@@ -2,7 +2,7 @@
 
 A deep learning model that identifies 5 varieties of rice from an image, with out-of-distribution rejection for non-rice inputs.
 
-**[Live Demo](YOUR_STREAMLIT_LINK)** | **[Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset)**
+**[Live Demo](https://riceclassifier.streamlit.app/)** | **[Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset)**
 
 ---
 
@@ -74,7 +74,7 @@ Sample test images for all 5 varieties are available in the `sample_images` fold
 ## Local Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/rice-classifier
+git clone https://github.com/ibrahim0015/Rice_classifier
 cd rice-classifier
 pip install -r requirements.txt
 streamlit run app.py
